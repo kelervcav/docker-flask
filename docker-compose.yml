@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  item-service:
+    build: ./item
+    volumes:
+      - ./item:/code
+    ports:
+      - 8000:5001
