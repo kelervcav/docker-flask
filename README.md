@@ -43,8 +43,12 @@ docker-compose up
 ## Docker compose run service in the background
 ```
 docker-compose up -d
+```
 ## Docker compose check running services
+```
 docker-compose ps
+```
 ## Docker compose stop service
 ```
 docker-compose stop 
+```
