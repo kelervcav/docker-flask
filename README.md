@@ -29,7 +29,9 @@ docker container ls -aq
 ### Docker Build
 ```
 docker build <location of docker file>
+```
 ## Docker Search Image
+```
 docker search <name of image> e.g. docker search python
 ```
 ### Docker Compose Build
